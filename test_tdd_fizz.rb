@@ -42,4 +42,10 @@ class TestTddFizz < Minitest::Test
         assert_equal("minds", fizzbuzz()[9])
         assert_equal("minds", fizzbuzz()[24])
     end
+
+    def test_array_every_fifteenth_element_returns_mined_minds
+        assert_equal("mined minds", fizzbuzz()[14])
+        assert_equal("mined minds", fizzbuzz()[29])
+        assert_equal("mined minds", fizzbuzz()[59])
+    end
 end

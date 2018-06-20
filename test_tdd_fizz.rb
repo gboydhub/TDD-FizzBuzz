@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require_relative "app.rb"
+require_relative "tdd_fizz.rb"
 
 class TestEvenOdd < Minitest::Test
 

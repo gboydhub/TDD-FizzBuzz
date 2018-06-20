@@ -10,4 +10,8 @@ class TestTddFizz < Minitest::Test
     def test_result_is_array
         assert_equal(Array, fizzbuzz().class)
     end
+
+    def test_array_length_is_100
+        assert_equal(100, fizzbuzz().length)
+    end
 end
